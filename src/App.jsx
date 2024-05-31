@@ -1,11 +1,19 @@
 import NavBar from "./components/NavBar";
 import "./App.css";
-import Typing from "./components/Typing";
+import TopMove from "./components/TopMoveAlways";
+import Home from "./components/Home";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <NavBar />
+      <BrowserRouter>
+        <NavBar />
+        <TopMove />
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
