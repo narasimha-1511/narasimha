@@ -43,16 +43,7 @@ function Typing({
     );
 
     return () => clearTimeout(timeout);
-  }, [
-    displayText,
-    isDeleting,
-    charIndex,
-    texts,
-    currentIndex,
-    typingSpeed,
-    deletingSpeed,
-    pause,
-  ]);
+  }, [displayText, isDeleting]);
   return (
     <>
       <h1>
