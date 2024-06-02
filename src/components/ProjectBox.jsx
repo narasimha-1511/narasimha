@@ -4,6 +4,10 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
+    AutoOtpDesc:
+      "A web app that automatically detects the OTP from User's Mobile Phone and fills it in the input field in the Laptop. This project was made to understand the concept of Real time databse and how to use it to automate tasks. This project was made using a Chrome Extension and Android application.",
+    AutoOtpGithub:
+      "https://github.com/narasimha-1511/chrome-extension-for-auto-otp",
     TindogDesc:
       "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
     TindogGithub: "https://github.com/DevanshSahni/tindog",
@@ -23,6 +27,15 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       "An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
     WigglesGithub: "https://github.com/DevanshSahni/Wiggles",
     WigglesWebsite: "https://wiggles.vercel.app/",
+
+    BookyAPIDesc:
+      "A RESTful API for a book store where you can add, delete, update and get books. This project was made to understand the concept of RESTful API and how to use it to perform CRUD operations. This make with Go, Gin and Gorm Frameworks.",
+    BookyAPIGithub: "https://github.com/narasimha-1511/zolo-backend",
+
+    ChatAppDesc:
+      "This is a Chat Application made using Node.js, Express.js, Socket.io , MongoDB, TypeScript. This project was made to understand the concept of Web Sockets and how to use them to make a real time chat application.",
+    ChatAppDemo: "https://chat-app-prod-zvet.onrender.com/",
+    ChatAppGithub: "https://github.com/narasimha-1511/chat-app-complete",
   };
 
   let show = "";
@@ -32,7 +45,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
   return (
     <div className="projectBox">
-      <img className="projectPhoto" src={projectPhoto} alt="Project display" />
+      {/* <img className="projectPhoto" src={projectPhoto} alt="Project display" /> */}
       <div>
         <br />
         <h3>{projectName}</h3>
