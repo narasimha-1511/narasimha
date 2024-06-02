@@ -34,7 +34,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
 
     ChatAppDesc:
       "This is a Chat Application made using Node.js, Express.js, Socket.io , MongoDB, TypeScript. This project was made to understand the concept of Web Sockets and how to use them to make a real time chat application.",
-    ChatAppDemo: "https://chat-app-prod-zvet.onrender.com/",
+    ChatAppWebsite: "https://chat-app-prod-zvet.onrender.com/",
     ChatAppGithub: "https://github.com/narasimha-1511/chat-app-complete",
   };
 
