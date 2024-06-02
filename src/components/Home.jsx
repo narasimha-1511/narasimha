@@ -2,7 +2,7 @@ import React from "react";
 import Typing from "./Typing";
 import "./css/home.css";
 import Lottie from "lottie-react";
-import SpaceBoy from "../Lottie/SpaceBoy.json";
+import SpaceBoy1 from "../Lottie/SpaceBoy.json";
 
 const Home = () => {
   return (
@@ -18,8 +18,9 @@ const Home = () => {
 
         <Lottie
           className="illustration"
+          background="transparent"
           loop={true}
-          animationData={SpaceBoy}
+          animationData={SpaceBoy1}
         ></Lottie>
       </div>
 
